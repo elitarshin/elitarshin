@@ -1,0 +1,1123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+}
+
+.box1 {
+    width: 13%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+.box2 {
+    width: 27%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight:normal;
+}
+
+h2 {
+    font-size: 27px;
+    font-family: "Dancing Script"
+}
+
+.icons {
+    width: 15%;
+    height: 100px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.social{
+    margin-left: 1.5vw;
+    display: flex;
+    gap:3.5rem
+}
+.instt{
+    color: grey;
+}
+.tww{
+    color: grey;
+}
+.fbb{
+    color: grey;
+}
+.pinn{
+    color: grey;
+}
+.youu{
+    color: grey;
+}
+.main {
+    width: 100%;
+    height: 70vh;
+    background: url(img/mainimg.jpg) no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    width: 70%;
+    height: 20vh;
+    background: url(img/h6-slider-graphic-1.png) no-repeat center / cover;
+    display: grid;
+    row-gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 2vh;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    color: black;
+}
+
+.main-box h4{
+    margin: 2vh 0vh 10vh 0vh;
+    font-size: 1vw;
+    font-family: "Dancing Script";
+    color: rgb(154, 43, 43)
+}
+
+.item {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.item-box1 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img {
+    width: 50%;
+    height: 100px;
+    background: url(img/design.png) no-repeat center / cover;
+}
+
+h5 {
+    font-size: 19px;
+    font-family: "Edu AU VIC WA NT Hand"
+}
+.ft1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.item-box2 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img2 {
+    width: 50%;
+    height: 100px;
+    background: url(img/house.png) no-repeat center / cover;
+}
+
+.item-box3 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img3 {
+    width: 50%;
+    height: 100px;
+    background: url(img/construction-machine.png) no-repeat center / cover;
+}
+
+.item-box5 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img5 {
+    width: 50%;
+    height: 100px;
+    background: url(img/architecture.png) no-repeat center / cover;
+}
+
+.item-box6 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img6 {
+    width: 50%;
+    height: 100px;
+    background: url(img/dog-category.png) no-repeat center / cover;
+}
+
+.item-box7 {
+    width: 13%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-img7 {
+    width: 50%;
+    height: 100px;
+    background: url(img/building.png) no-repeat center / cover;
+}
+
+.ses {
+    font-family: "Rajdhani"
+}
+
+.b {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.gg {
+    color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.phot {
+    overflow: auto;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 150px;
+}
+
+.BagrevandResidence {
+    width: 19.7%;
+    height: 55vh;
+    padding: 9vh;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-car {
+    width: 18vw;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/sectionimg.jpg) no-repeat center / cover;
+    background-size:contain;
+}
+
+.Bagrevandtitle button{
+    margin-left: 2.5vw;
+}
+.p {
+    width: auto;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Dancing Script"
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20px;
+}
+.sar .p{
+    width: 15vw;
+}
+.palm {
+    width: 19.7%;
+    height: 55vh;
+    padding: 9vh;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.townhouses {
+    width: 18vw;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/townhouses.png) no-repeat center / cover;
+}
+
+
+
+.sar {
+    width: 19.7%;
+    height: 55vh;
+    padding: 9vh;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blocks {
+    width: 18vw;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/beton.jpg) no-repeat center / cover;
+}
+
+.oke {
+    width: 19.7%;
+    height: 55vh;
+    padding: 9vh;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-oke {
+    width: 18vw;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/katlavan.jpg) no-repeat center / cover;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.booke {
+    width: 90%;
+    height: 550px;
+    background: rgba(154, 81, 36, 0.088);
+    margin: auto;   
+}
+
+.dd {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 50px;
+    font-family: "Rajdhani"
+}
+
+.tt {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.travel {
+    width: 90%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+    padding-bottom: 300px;
+    padding-left: 100px;
+}
+
+.book1 {
+    width: 15%;
+    height: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook1 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc8-650x800.png) no-repeat center / contain;
+}
+
+.book2 {
+    width: 15%;
+    height: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook2 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc-1t-1-650x800.png) no-repeat center / contain;
+}
+
+.book3 {
+    width: 15%;
+    height: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook3 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc7-650x800.png) no-repeat center / contain;
+}
+
+.book4 {
+    width: 15%;
+    height: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook4 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc6-650x800.png) no-repeat center / contain;
+}
+
+.book5 {
+    width: 15%;
+    width: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook5 {
+    width: 65%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc5-650x800.png) no-repeat center / contain;
+}
+
+.book6 {
+    width: 15%;
+    height: 290px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgbook6 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/produc4-650x800.png) no-repeat center / contain;
+}
+
+.wer {
+    margin-top: 130px;
+}
+
+.wer1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.941);
+    font-family: "Rajdhani"
+}
+
+.wer2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgba(231, 112, 0, 0.941);
+    font-family: "Rajdhani"
+}
+
+.wer3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.xarr {
+    width: 90%;
+    height: 800px;
+    border: 1px solid rgb(214, 205, 205);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgr {
+    width: 700px;
+    height: 800px;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-bgr {
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid rgb(255, 0, 217); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/sectionimg.jpg) no-repeat center / cover;
+}
+
+.imggirl {
+    width: 20vw;
+    height: 15vh;
+    /* border: 1px solid rgb(0, 255, 64); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: "Dancing Script"
+}
+
+.builds {
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: "Rajdhani"
+}
+
+
+.aboutbg {
+    width: 80%;
+    text-align: center;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.633);
+}
+
+.girl4 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: "Gupter"
+}
+
+.girl5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 22px;
+}
+
+.yaxt {
+    width: 50.8%;
+    height: 510px;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-yaxt {
+    width: 250px;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/townhouses.png) no-repeat center/ cover;
+}
+
+.imgyaxt {
+    width: 250px;
+    height: 40px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Dancing Script"
+}
+
+.yaxt-box {
+    width: 45%;
+    height: 710px;
+    /* border: 1px solid teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.fb{
+    color: blue;
+}
+.tw{
+    color: lightblue;
+}
+.pin{
+    color: red;
+}
+.yaxtyaxt {
+    text-align: center;
+    font-size: large;
+    font-family: "Rajdhani"
+}
+
+.yaxt2 {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Rajdhani"
+}
+
+.teay {
+    width: 50.8%;
+    height: 450px;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vh;
+}
+
+.img-teay {
+    width: 250px;
+    height: 200px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(img/katlavan.jpg) no-repeat center / cover;
+}
+
+.imgteay {
+    width: 20vw;
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Dancing Script"
+}
+.imgteay p{
+    color:black;
+    font-size: xx-large;
+}
+.teayteay {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Rajdhani"
+}
+
+.teay2 {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Rajdhani"
+}
+.text{
+    gap:10vh;
+    width: 25%;
+    height: 800px;
+    /* border: 1px solid rgb(214, 205, 205); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text1{
+    width: 250px;
+    height: 140px;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text2{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Rajdhani";
+    padding: 15px;
+}
+.text4{
+    width: 250px;
+    height: 140px;
+    border: 1px solid rgb(214, 205, 205) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text5{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Rajdhani"
+}
+.text16{
+    width: 250px;
+    height: 130px;
+    border: 1px solid rgb(214, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text17{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Rajdhani"
+}
+
+.iframe{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:250px
+}
+.travel1{
+    width: 80%;
+    height: 50vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.travel2{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.travel3{
+    margin-left: 3vw;
+    width: 700px;
+    height: 600px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.travel11{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rajdhani"
+    
+}
+.travel22{
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.678);
+}
+.travel33{
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.678);
+}
+.travel44{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 22px;
+    padding-right: 65%;
+}
+.travel55{
+    border: 0.1px solid black;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/office.png) no-repeat center / cover;
+}
+.travel66{
+    font-size: 20px;
+    text-align: center;
+    /* font-family: "Pacifico" */
+}
+.socialmedia{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    gap:2vw;
+}
+
+.rek{
+    padding: 5vh;
+    width: 95%;
+    height: auto;
+    background-color: rgba(138, 132, 128, 0.486);
+    margin: auto;
+    margin-top: 20vh;
+}
+.rek1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1%;
+    font-family: "Rajdhani"
+}
+.rek2{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.678);
+    text-align: center
+}
+.rekk{
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+.h31{
+    font-family: "Rajdhani";
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.637);
+    margin-top: 1vh;
+}
+.rek3{
+    border: 0.5px solid black;
+    border-radius: 0.3vw;
+    margin-top: -5vh;    
+    width: 40vh;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/bgresidense.png)no-repeat center / cover;
+}
+.rek4{
+    border: 0.5px solid black;
+    border-radius: 0.3vw;
+    margin-top: -5vh;    
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/twnhsn.png) no-repeat center / cover;
+}
+.rek5{
+    margin-left: 23%;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/office.png) no-repeat center / cover;
+}
+
+.ver-ver{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.ver{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-top: 10px;
+}
+
+.follow{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 30px;
+}
+.follow-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 30px;
+}
+.icons-fl {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15vw;
+}
+.insttt{
+    color: white;
+    font-size: 12px;
+    font-family: "Rajdhani"
+}
+.fbbbb{
+    color: white;
+    font-size: 14px;
+    font-family: "Rajdhani"
+}
+.mail{
+    color: white;
+    font-size: 14px;
+    font-family: "Rajdhani"
+}
+.piii{
+    font-size: 14px;
+    font-family: "Rajdhani"
+}
+.yuuu{
+    font-size: 14px;
+    font-family: "Rajdhani"
+}
+.faaa{
+    font-size: 14px;
+    font-family: "Rajdhani"
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ver1, .ver2{
+    color: white;
+}
+/* buildings.html */
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.projects div{
+    margin-left: -15vh;
+    width: 25vw;
+    height: auto;
+}
+.second{
+    height:40vh ;
+    border-radius: 10vw;
+    background: no-repeat center / cover;
+    z-index: 5;
+}
+.projects div:hover{
+    scale: 102%;
+    z-index:6;
+}
+.projects img{
+    border:10px solid white;
+    border-radius: 10vw;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+h4{
+    color: black;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section1{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.section1 p{
+    text-align: center;
+    padding: 0;
+    width: 80%;
+}
+.section1 img{
+    box-shadow: none;
+}
+.projects p{
+    font-family: monospace;
+    font-weight: bold;
+    color: #8d5408;
+    opacity:80%;
+}
+hr{
+    width: 70%;
+    margin-left: 5%;
+    background-color: black;
+}
+.titlebg{
+    margin-right: 7%;
+    font-family: monospace;
+    font-weight: bold;
+}
+.titlebg h1{
+    color:#8d5408;
+    font-weight: bold;
+}
+.titlebg h3{
+    color:#8d5408;
+    opacity: 80%;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    gap: 10vw;
+    margin-left: 10%;
+}
+a{
+    font-size: larger;
+    text-decoration: none;
+    color:gray
+}
+a:hover{
+    color: gray;
+    text-decoration: none;
+}

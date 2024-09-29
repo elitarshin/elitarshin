@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+
+{% block addbutton  %}
+<div class="building">
+    <img class="aboutimg" src="../static/css/img/katlavan2.jpg" width="45%" height="auto" >
+    <div class="buildinginfo">
+        <h1 class="titleBuilding">Կաթլավան</h1>
+        <p class="bldp">Մենք մասնագիտացած ենք հողային աշխատանքների իրականացման մեջ, օգտագործելով նորագույն տեխնոլոգիաներ, որոնք ապահովում են բարձր արդյունավետություն և գերազանց որակ։ Մեր թիմը բաղկացած է փորձառու մասնագետներից, ովքեր բարձր մակարդակի ծառայություններ են մատուցում՝ ուշադրություն դարձնելով ամեն մանրուքին։
+
+            Ներկայումս մենք զբաղված ենք Բագրևանդ Ռեզիդենս համալիրի երկրորդ շենքի կաթլավանի փորման աշխատանքներով։ Այս աշխատանքները իրականացնում ենք համապատասխան բոլոր տեխնիկական պահանջներին, որպեսզի ապահովենք անվտանգություն և որակի բարձր ստանդարտներ։ Մեր նպատակն է ավարտել աշխատանքները ժամանակին՝ ապահովելով հաճախորդների սպասելիքների կատարումը և վստահություն ստեղծելով մեր ընկերության նկատմամբ։
+            
+            Մենք նաև համակարգում ենք աշխատանքները՝ օգտագործելով ժամանակակից ծրագրակազմեր, ինչը թույլ է տալիս մեզ ապահովել բարձր մակարդակի կապ և արդյունավետություն նախագծերի իրականացման ընթացքում։ Մեր աշխատակազմը նվիրված է յուրաքանչյուր նախագծին և ձգտում է միշտ գերազանցել հաճախորդների սպասելիքները:</p>
+        <div class="imgs">
+            <img src="../static/css/img/katlavan1.jpg" width="250vw" height="150vh">
+            <img src="../static/css/img/katlavan.jpg" width="250vw" height="150vh">
+            <img src="../static/css/img/katlavan3.jpg" width="250vw" height="150vh">
+        </div>
+     
+    </div>
+</div>
+<style>
+.text-center{
+    display: none;
+
+}
+hr{
+    margin: 0;
+    width: 100%;
+}
+.markets{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 7vw;
+}
+.bldp{
+    font-size: large;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 7%;
+    text-align:center;
+}
+.titleBuilding{
+    width: 100%;
+    text-align: center;
+}
+.imgs{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 3vw;
+}
+.buildinginfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+}
+.building{
+    margin-left: 3vw;
+    display: flex;
+}
+.aboutimg{
+    border-radius: 2vw;
+}
+h4{
+    font-weight:bold;
+    font-size: medium;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+a{
+    font-family: none;
+}
+.imgs img{
+    border-radius: 1vw;
+}
+</style>
+{% endblock %}
