@@ -1,4 +1,4 @@
-#!/home/mheryan/Desktop/projects/ElitarShin/fastapi/venv/bin/python3
+#!/home/mheryan/Desktop/projects/elitarshin.github.io/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
