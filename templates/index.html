@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,14 +25,13 @@
 <body>
     <div class="box">
         <div class="box1">
-            <i class="fa-solid fa-globe"></i>
             <h1 id="tit">ԷԼԻՏԱՐ ՇԻՆ</h1>
         </div>
         <div class="box2">
             <ul>
                 <li><a id="home" href="">Հիմնական</a></li>
                 <li><a id="projects1" href="#projects">Աշխատանքներ</a></li>
-                <li><a id="about1" href="#about">Մեր Մասին</a></li>
+                <li class="about1"><a id="about1" href="#about">Մեր Մասին</a></li>
             </ul>
         </div>        
         <div class="icons">
@@ -81,7 +79,7 @@
         <div class="BagrevandResidence">
             <div class="img-car"></div><br>
             <div class="Bagrevandtitle">
-                <div class="p">Բագրեվանդ Բնակելի Համալիր</div><br>
+                <div class="p">Բագրեվանդ Բնակելի Համալիր</div><br><br>
                 <form action="/bagrevandresidence">
                     <button id="btn" onclick="bg">Տեսնել Ավելին</button>
                 </form>
@@ -89,7 +87,7 @@
         </div>
         <div class="palm">
             <div class="townhouses"></div><br>
-            <div id="twn" class="p">Թաունհաուսների Կառուցապատում</div><br>
+            <div id="twn" class="p">Թաունհաուսների Կառուցապատում</div><br><br>
             <form action="/townhouses">
                 <Button id="btn1" onclick="th()">Տեսնել Ավելին</Button>
             </form>
@@ -103,7 +101,7 @@
         </div>
         <div class="oke">
             <div class="img-oke"></div><br>
-            <div id="katlavan" class="p">Կաթլավանի Փորում</div><br>
+            <div id="katlavan" class="p">Կաթլավանի Փորում</div><br><br>
             <form action="/katlavan">
                 <button id="btn3" onclick="katlavan()">Տեսնել Ավելին</button>
             </form>
@@ -152,7 +150,6 @@
 
 <div class="rek">
     <div class="rek1">Մեր Նախագծերը</div><br>    
-    <div class="rek2"></div>
     <br><br>
     <div class="rekk">
         <div>
@@ -175,6 +172,7 @@
     </div>
 </div>
 <div class="ft1">
+    <br>
     <hr>
 </div>
 <br>
@@ -183,16 +181,10 @@
 <div class="footer">
     <br>
     <div class="socialmedia">
-        <img src="../static/css/img/instagram.png" alt="instagram icon" width="30vw"> 
-        <a href="https://www.instagram.com/elitar_shin?igsh=ODN0MzB4MndpMXRj">Instagram</a>
-        <img src="../static/css/img/facebook.png" alt="facebookicon" width="30vw">
-        <a href="https://www.facebook.com/pemzablokbetoncement?mibextid=LQQJ4d">Facebook</a>
-        <img src="../static/css/img/gmail.png" alt="gmail icon" width="30vw">
-        <a href="Elitarshinspy@gmail.com">Gmail</a>
-        <img src="../static/css/img/phone.png" alt="phone icon" width="30vw">
-        <a>Phone Number</a>
-    </div>
-        <div class="socialmedia">
+        <a href="https://www.instagram.com/elitar_shin?igsh=ODN0MzB4MndpMXRj"><img src="../static/css/img/instagram.png" alt="instagram icon" width="30vw"> </a>
+        <a href="https://www.facebook.com/pemzablokbetoncement?mibextid=LQQJ4d"><img src="../static/css/img/facebook.png" alt="facebookicon" width="30vw"></a>
+        <a href="Elitarshinspy@gmail.com"><img src="../static/css/img/gmail.png" alt="gmail icon" width="30vw"></a>
+        <a><img src="../static/css/img/phone.png" alt="phone icon" width="30vw"></a>
     </div>
 
 
@@ -201,7 +193,7 @@
 <br>
 <br>
 <br id="about">
-<script  >
+<script>
     function eng(){
         document.getElementById("tit").innerHTML = "ELITAR SHIN"
         document.getElementById("home").innerHTML = "Home"
