@@ -1333,7 +1333,7 @@ a:hover{
         width: 60vw;
     }
     .socialmedia{
-        margin-left: 0;
+        margin-left: 5vw;
     }
 }
 @media (max-width: 589px) {
@@ -1407,7 +1407,6 @@ a:hover{
         width: 40vw;
     }    
     .socialmedia {
-        margin-left: 5vw;
         gap: 7vw;
     }
     .socialmedia a img {
