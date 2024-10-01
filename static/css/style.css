@@ -1393,6 +1393,10 @@ a:hover{
     .b .gg{
         font-size: small;
     }
+    
+    .rek4{
+        margin-bottom: 6vh;
+    }
 }
 @media (max-width: 400px) {
     ul{
@@ -1401,10 +1405,6 @@ a:hover{
     button{
         width: 40vw;
     }    
-    .rek4{
-        margin-bottom: 6vh;
-    
-    }
     .socialmedia {
         margin-left: 5vw;
         gap: 7vw;
