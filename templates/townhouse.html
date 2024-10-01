@@ -3,7 +3,7 @@
 
 {% block addbutton  %}
 <div class="building">
-    <img class="aboutimg" src="../static/css/img/townhouses.png" width="40%" height="auto" >
+    <img class="aboutimg" src="../static/css/img/townhouses.png" width="40%" height="700vh" >
     <div class="buildinginfo">
         <h1 class="titleBuilding">Թաունհաուսներ</h1>
         <p class="bldp">Այս նախագիծը, որը մեկնարկել է 2020 թվականին և հաջողությամբ ավարտվել 2022-ին, ներկայացնում է ժամանակակից թաունհաուսների համալիր, որը առանձնանում է իր մոդեռն և նորարարական լուծումներով: Շենքերի դիզայնը ընդգծում է մինիմալիստական ոճի և ֆունկցիոնալության համադրությունը՝ լայն պատուհաններ, կանաչապատ տանիքներ և բարձրորակ շինարարական նյութեր, որոնք ապահովում են ամրություն և հարմարավետություն:
@@ -12,9 +12,9 @@
             
             Այս թաունհաուսները մարմնավորում են բարձրորակ շինարարական ստանդարտներ՝ ինտեգրելով բնական և տեխնոլոգիական տարրերը, ինչը թույլ է տալիս ստեղծել հարմարավետ և պրակտիկ բնակարանային միջավայր՝ լիովին համապատասխանելով ժամանակակից պահանջներին:</p>
         <div class="imgs">
-            <img src="../static/css/img/townhouse2.png" width="250vw" height="150vh">
-            <img src="../static/css/img/townhouse3.png" width="250vw" height="150vh">
-            <img src="../static/css/img/townhouse4.png" width="250vw" height="150vh">
+            <img src="../static/css/img/townhouse2.png" width="25%" height="150vh">
+            <img src="../static/css/img/townhouse3.png" width="25%" height="150vh">
+            <img src="../static/css/img/townhouse4.png" width="25%" height="150vh">
         </div>
      
     </div>
@@ -49,7 +49,7 @@ hr{
     width: auto;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-around;
     gap: 3vw;
 }
 .buildinginfo{
@@ -80,5 +80,46 @@ a{
 .imgs img{
     border-radius: 1vw;
 }
+@media (max-width: 1230px) {
+    .imgs{
+        margin-left: -30vw;
+    }
+}
+@media (max-width: 1024px) {
+    .building{
+        flex-direction: column;
+    }
+    .imgs{
+        margin-left: 0vw;
+    }
+    .aboutimg, .buildinginfo{
+        width: 100%;
+    }
+    .icons{
+        flex-direction: row;
+    }
+    .icons img{
+        width: 3vw;
+    }
+}
+@media (max-width: 600px) {
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 60%;
+    }
+    ul{
+        margin-left: 10vw;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .imgs img{
+        height: 30vh;
+    }
+}
+
+
 </style>
 {% endblock %}
