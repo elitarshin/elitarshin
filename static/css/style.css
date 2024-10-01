@@ -767,6 +767,9 @@ button:hover {
     justify-content: center;
     flex-direction: column;
 }
+.rek3 br{
+    display: none;
+}
 .text2{
     text-align: center;
     font-size: x-large;
@@ -1394,8 +1397,8 @@ a:hover{
         font-size: small;
     }
     
-    .rek4{
-        margin-bottom: 7vh;
+    .rekk {
+        align-items:start;
     }
 }
 @media (max-width: 400px) {
