@@ -79,5 +79,32 @@ a{
 .imgs img{
     border-radius: 1vw;
 }
+@media (max-width: 1230px) {
+    .imgs{
+        margin-left: -30vw;
+    }
+}
+@media (max-width: 1024px) {
+    .building{
+        flex-direction: column;
+    }
+    .imgs{
+        margin-left: 0vw;
+    }
+    .aboutimg, .buildinginfo{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 600px) {
+    
+    .aboutimg{
+        height: 60vh;
+    }
+    .imgs img{
+        height: 10vh;
+        margin-bottom: 10vh;
+    }
+}
 </style>
 {% endblock %}
