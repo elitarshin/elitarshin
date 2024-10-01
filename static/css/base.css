@@ -28,7 +28,6 @@ h1 {
 .row{
     flex-direction: column;
     width: 70%;
-    margin-left: -20vw;
 }
 
 .box2 {
@@ -116,6 +115,7 @@ a{
     .icons img{
         width: 3vw;
     }
+
 
 }
 @media (max-width: 600px) {

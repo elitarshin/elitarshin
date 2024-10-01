@@ -116,6 +116,68 @@
     .footer{
         border:none
     }
+    @media (max-width: 1230px) {
+        .projects div{
+            width: 30vw;
+        }
+    }
+    @media (max-width: 1024px) {
+        
+        .building{
+            flex-direction: column;
+        }
+        .imgs, .markets{
+            justify-content:center;
+        }
+        .aboutimg, .buildinginfo{
+            width: 100%;
+        }
+        .previous{
+            margin: 5vw;
+            width: 3vw;
+        }
+
+
+    }
+    @media (max-width: 768px) {
+        .projects div img{
+            height: 50vh;
+        }
+        .row{
+            gap: 10vh;
+        }
+    }
+    @media (max-width: 600px) {
+        .aboutimg{
+            height: 60vh;
+        }
+        .imgs img{
+            height: 10vh;
+            margin-bottom: 10vh;
+        }
+        .projects{
+            flex-direction: column;
+            align-items: center;
+        }
+        .projects div img{
+            width: 50vw;
+            height: 30vh;
+        }
+        .projects div h1{
+            width: 50vw;
+        }
+        .row{
+            gap: 15vh;
+        }
+        .previous{
+            width: 5vw;
+        }
+        .imgs img{
+            height:20vh;
+        }
+
+
+    }
 </style>
 <script src="jquery.js" type="text/javascript"></script>
 <script>
