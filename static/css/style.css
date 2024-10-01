@@ -1309,9 +1309,7 @@ a:hover{
     }
 }
 @media (max-width: 700px) {
-    .box{
-        margin-left:8%;
-    }
+ 
     .yaxt-box{
         margin-top: 15vh;
         flex-direction: column;

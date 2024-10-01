@@ -108,8 +108,17 @@ a{
     text-decoration: none;
 }
 @media (max-width: 1024px) {
-
+    .box{
+        gap: 20vw;
+    }
+    .box1{
+        width: 20vw;
+    }
+    h4{
+        width: 10vw;
+    }
     .icons{
+        margin-right: 2vw;
         flex-direction: row;
     }
     .icons img{
@@ -123,12 +132,13 @@ a{
         display: none;
     }
     .box2{
-        width: 60%;
+        width: 100%;
     }
+    
     ul{
-        margin-left: 10vw;
+        font-weight: bold;
     }
     .icons{
-        flex-direction: column;
+        display: none;
     }
 }
