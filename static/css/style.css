@@ -600,13 +600,15 @@ button:hover {
     flex-direction: column;
     padding-top: 1.5vw;
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     font-family: "Dancing Script"
 }
 
 .builds {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-family: "Rajdhani"
 }
 
@@ -722,7 +724,6 @@ button:hover {
 }
 
 .imgteay {
-    width: 20vw;
     height: 3.5vh;
     display: flex;
     align-items: center;
@@ -819,8 +820,8 @@ button:hover {
     margin-top: 150px;
 }
 .travel2{
-    width: 600px;
-    height: 600px;
+    width: 40vw;
+    height: 60vh;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
@@ -1172,9 +1173,21 @@ a:hover{
     }
 }
 @media (max-width: 1024px) {
-    .icons{
-        flex-direction: column;
+    
+    .about1{
+        width: 17vw;
     }
+   
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 45%;
+    }
+    .main-box{
+        height:35vh;
+    }
+    
     button{
         width: 12vw;
         height:5vh;
@@ -1196,15 +1209,25 @@ a:hover{
     .Bagrevandtitle .p{
         margin-bottom: 4vh;
     }
+    .img-car{
+        margin-bottom: 3vh;
+    }
     .item-img, .item-img2,  .item-img3, .item-img5,  .item-img6, .item-img7{
         width: 80%;
+    }
+    ul li a{
+        font-size: large;
+        font-weight: bold;
+    }
+    .iframe{
+        margin-bottom: 40vh;
     }
     .xarr{
         display: block;
         border: none;
     }
     .bgr{
-        width: 100vw;
+        width: 100%;
     }
     .yaxt-box{
         width: 100%;
@@ -1212,6 +1235,12 @@ a:hover{
     }
     .teay{
         padding: 2vw;
+    }
+    .footer{
+        margin-top: 10vh;
+    }
+    .socialmedia a img{
+        width: 4vw;
     }
 }
 @media (max-width: 986px) {
@@ -1277,6 +1306,9 @@ a:hover{
     }
 }
 @media (max-width: 700px) {
+    .box{
+        margin-left:8%;
+    }
     .yaxt-box{
         margin-top: 15vh;
         flex-direction: column;
@@ -1287,13 +1319,44 @@ a:hover{
     li{
         font-size: medium;
     }
+    .img-car {
+        width: 60vw;
+    }
+    .townhouses{
+        width: 60vw;    
+    }
+    .blocks{
+        width: 60vw;
+    }
+    .img-oke{
+        width: 60vw;
+    }
     .socialmedia{
         margin-left: 0;
     }
 }
 @media (max-width: 589px) {
+    .box{
+        margin-left: 12vw;
+    }
+    .icons{
+        flex-direction: column;
+    }
     #quality{
-        display: none;
+        margin-left: 3vw;
+    }
+
+    .b .gg{
+        font-size:medium;
+    }
+    .yaxt-box{
+        margin-top: 40vh;
+        margin-bottom: 20vh;
+    }
+    button{
+        width: 30vw;
+        height: 8vh;
+        font-size: medium;
     }
     .imggirl{
         font-size: larger;
@@ -1309,4 +1372,42 @@ a:hover{
         font-size: xx-large;   
     }
    
+}
+@media (max-width: 589px) {
+    .box{
+        gap: 25vw;
+        margin-left: 0;
+    }
+    .box2 ul{
+        flex-direction: column;
+    }
+    ul{
+        align-items: start;
+    }
+    .about1{
+        width: 50vw;
+    }
+    #quality{
+        margin-left: 20vw;
+    }
+    .b .gg{
+        font-size: small;
+    }
+}
+@media (max-width: 400px) {
+    button{
+        width: 40vw;
+    }    
+    .rek4{
+        margin-bottom: 6vh;
+    
+    }
+    .socialmedia {
+        margin-left: 5vw;
+        gap: 8vw;
+    }
+    .socialmedia a img {
+        width: 10vw;
+    }
+
 }
