@@ -1399,13 +1399,17 @@ a:hover{
         align-items:start;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     ul{
         gap: 0.8vh;
     }
     button{
         width: 40vw;
-    }    
+    }  
+    #quality{
+        margin-left: 0vw;
+        text-align: center;
+    }  
     .socialmedia {
         gap: 7vw;
     }
