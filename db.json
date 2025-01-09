@@ -1,0 +1,19 @@
+{
+  "admin": [
+    {
+      "id": "77zn717",
+      "login": "test",
+      "password": "test"
+    }
+  ],
+  "bgPosts": [
+    {
+      "id": "781d",
+      "title": "test",
+      "data": "test"
+    }
+  ],
+  "1build": [],
+  "2build": [],
+  "3build": []
+}
