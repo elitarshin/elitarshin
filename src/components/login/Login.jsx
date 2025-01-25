@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import TextField from '@mui/material/TextField';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
@@ -14,7 +14,6 @@ function Login() {
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors },
   } = useForm()
   
@@ -33,7 +32,6 @@ function Login() {
     } catch (error) {
       console.log(error);
     }
-
   }
 
 

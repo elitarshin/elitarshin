@@ -6,13 +6,7 @@
       "password": "test"
     }
   ],
-  "bgPosts": [
-    {
-      "id": "781d",
-      "title": "test",
-      "data": "test"
-    }
-  ],
+  "bgPosts": [],
   "1build": [],
   "2build": [],
   "3build": []
