@@ -14,14 +14,14 @@ function Header() {
 
   
   return (
-    <div className="w-12/12 p-6 flex justify-between	">
-      <h3 className="font-bold text-2xl">{t("title")}</h3>
-      <div className="flex gap-10">
-        <Link to="/"><Button id="btn" variant="text">{t("home")}</Button></Link>
+    <div className="w-12/12 p-6 flex justify-between max-md:p-2 max-sm:justify-between p-2">
+      <h3 className="font-bold text-2xl max-md:hidden max-sm:hidden">{t("title")}</h3>
+      <div className="flex gap-10 max-sm:flex-col gap-2">
+        <Button id="btn" variant="text"><Link to="/">{t("home")}</Link></Button>
         <Button id="btn" variant="text" onClick={() => window.scrollTo(0,1000)}>{t("projects")}</Button>
         <Button id="btn" variant="text" onClick={() => window.scrollTo(0,2800)}>{t("about")}</Button>
       </div>
-      <div className="flex gap-1">
+      <div className="flex gap-1 max-md:flex-col gap-0 max-sm:flex-col gap-2">
         {
           value.map((item) => {
             return  <Button key={item.id} id="btn" variant="text" onClick={() => changeLanguage(item.lang)}>{item.title}</Button> 
