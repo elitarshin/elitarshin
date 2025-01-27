@@ -12,8 +12,8 @@ return (
     <div className='flex flex-col items-center mt-24'>
       <h1 className='text-5xl '>{t("recentStories")}</h1>
       <h1 className='mt-4 text-4xl text-amber-600 mb-10'>{t("dfprj")}</h1>
-      <div className='w-full border-2 p-12 flex justify-center flex-wrap gap-28'>
-        <div className='w-2/5 flex flex-col gap-5 text-center border-2 p-4 max-sm:w-4/5'>
+      <div className='w-full border-2 p-2 flex justify-center flex-wrap gap-28'>
+        <div className='w-4/5 flex flex-col gap-5 text-center border-2 p-4 max-sm:w-4/5'>
             <img src={bgstory} alt="" />
             <h3 className='text-3xl font-bold'>{t("bgstories")}</h3>
             <h4 className="text-xl font-bold">{t("builds")}</h4>
@@ -29,10 +29,10 @@ return (
                 <h3 className='text-xl font-bold'>{t("katlavanstories")}</h3>
             </div>
         </div>
-        <div className='flex flex-col flex-wrap justify-around gap-10 text-center max-md:flex-row flex-nowrap max-sm:flex-row flex-nowrap'>
-            <div className='w-72 h-40 flex items-center p-2 border-2 font-bold text-xl max-md:w-2/6 max-sm:w-3/6 text-xs text-center '>{t("apartments")}</div>
-            <div className='w-72 h-40 flex items-center p-2 border-2 font-bold text-xl max-md:w-2/6 max-sm:w-3/6 text-xs text-center'>{t("twnbuilds")}</div>
-            <div className='w-72 h-40 flex items-center p-2 border-2 font-bold text-xl flex justify-center max-md:w-2/6 max-sm:w-3/6 text-xs '>{t("earthworks")}</div>
+        <div className='flex flex-col flex-wrap justify-around gap-4 text-center max-md:flex-row flex-wrap max-sm:flex-row flex-wrap'>
+            <div className='w-72 h-40 flex items-center justify-center p-2 border-2 font-bold text-xl max-md:w-2/6 max-sm:w-2/6 text-xs text-center '>{t("apartments")}</div>
+            <div className='w-72 h-40 flex items-center justify-center p-2 border-2 font-bold text-xl max-md:w-2/6 max-sm:w-2/6 text-xs text-center'>{t("twnbuilds")}</div>
+            <div className='w-72 h-40 flex items-center justify-center p-2 border-2 font-bold text-xl flex justify-center max-md:w-2/6 max-sm:w-2/6 text-xs '>{t("earthworks")}</div>
         </div>
       </div>
 
