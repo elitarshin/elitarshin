@@ -20,11 +20,11 @@ function Blocks() {
     <div className="w-full flex flex-col justify-around">
       <Header/>
       <div className="w-full justify-center flex gap-20 p-16 max-md:flex-col">
-        <div className="w-3/6 max-md:w-full mb-10">
-          <img src={build1} className="mt-24 rounded"/>
+        <div className="w-3/6 max-md:w-full">
+          <img src={build1} className="mt-24 rounded max-md:mt-1"/>
         </div>
         <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
-          <h2 className="text-4xl text-center mt-20">{t("block")}</h2>
+          <h2 className="text-4xl text-center mt-20 max-md:mt-1">{t("block")}</h2>
           <p className="text-center font-bold w-5/6">{t("blockInfo")}</p>
           <div className="w-full flex flex-wrap gap-4 max-md:w-full justify-center ">
               <img src={build2} className="w-56 h-56 rounded-md" />
@@ -33,12 +33,13 @@ function Blocks() {
           </div>
         </div>
       </div>
+      <hr />
       <div className="w-full justify-center flex gap-20 p-16 max-md:flex-col">
-        <div className="w-3/6 max-md:w-full mb-10">
-          <img src={uzel} className="w-6/6 mt-24 rounded"/>
+        <div className="w-3/6 max-md:w-full ">
+          <img src={uzel} className="w-6/6 mt-24 rounded max-md:mt-1"/>
         </div>
         <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
-          <h2 className="text-4xl text-center mt-20">{t("concrete")}</h2>
+          <h2 className="text-4xl text-center mt-20 max-md:mt-1">{t("concrete")}</h2>
           <p className="text-center font-bold w-5/6">{t("concreteInfo")}</p>
           <div className="w-full flex flex-wrap gap-4 max-md:w-full justify-center">
               <img src={concrete1} className="w-56 h-56 rounded-md" />
