@@ -16,18 +16,18 @@ function BgResidense() {
     return (
     <div className='flex flex-col'>
         <Header/>
-        <div className='w-full flex justify-center mt-16'>
-            <div className=' w-1/6 hover:scale-105 flex flex-col items-center hover:z-20'>
-                <div className='bg-[url("../../../assets/bgres/1.1building.jpg")] bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white'></div>
-                <Link to="/BG/1"><h3 className='mt-10 text-2xl font-bold'>{t("bulding1")}</h3></Link>
+        <div className='w-full flex justify-center mt-16 max-md:flex-col items-center'>
+            <div className='w-1/6 hover:scale-105 flex flex-col items-center hover:z-20 max-md:w-full'>
+                <div className='bg-[url("../../../assets/bgres/1.1building.jpg")] flex bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white max-md:p-40 max-sm:p-28'></div>
+                <Link to="/BG/1"><h3 className='mt-10 text-center text-2xl font-bold max-md:mt-1 mb-10'>{t("bulding1")}</h3></Link>
             </div>
-            <div className='w-1/6 z-10 flex flex-col items-center hover:scale-105'>
-                <div className='bg-[url("../../../assets/bgres/right.jpg")] bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white'></div>
-                <Link to="/BG/2"><h3 className='mt-10 text-2xl font-bold'>{t("bulding2")}</h3></Link>
+            <div className='w-1/6 z-10 flex flex-col items-center hover:scale-105 max-md:w-full'>
+                <div className='bg-[url("../../../assets/bgres/right.jpg")] bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white max-md:p-40 max-sm:p-28'></div>
+                <Link to="/BG/2"><h3 className='mt-10 text-center text-2xl font-bold max-md:mt-1 mb-10'>{t("bulding2")}</h3></Link>
             </div>
-            <div className='w-1/6 flex flex-col items-center hover:scale-105 hover:z-20'>
-                <div className='bg-[url("../../../assets/bgres/3th.jpg")] bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white'></div>
-                <Link to="/BG/3"><h3 className='mt-10 text-2xl font-bold'>{t("bulding3")}</h3></Link>
+            <div className='w-1/6 flex flex-col items-center hover:scale-105 hover:z-20 max-md:w-full'>
+                <div className='bg-[url("../../../assets/bgres/3th.jpg")] bg-no-repeat bg-cover bg-center p-56 bg-black rounded-full border-8 border-white max-md:p-40 max-sm:p-28'></div>
+                <Link to="/BG/3"><h3 className='mt-10 text-center text-2xl font-bold max-md:mt-1 mb-10'>{t("bulding3")}</h3></Link>
             </div>
         </div>
         <div className='w-full flex justify-center mt-20'>

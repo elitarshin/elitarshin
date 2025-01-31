@@ -13,8 +13,8 @@ function TownHouse() {
   return (
     <div className="w-full flex flex-col justify-around">
       <Header/>
-      <div className="flex p-16">
-        <div className="w-3/6 flex flex-col gap-10">
+      <div className="w-full justify-center flex gap-20 p-16 max-md:flex-col">
+        <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
           <img src={build1} classN0ame="mt-24 rounded"/>
           <div className="flex flex-wrap gap-10 justify-center ">
               <img src={build2} className="w-52 h-46 rounded" />
@@ -22,8 +22,8 @@ function TownHouse() {
               <img src={build4} className="w-52 h-46 rounded" />
           </div>
         </div>
-        <div className="w-3/6 flex flex-col items-center gap-12">
-          <h2 className="text-4xl text-center">{t("twn")}</h2>
+        <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
+          <h2 className="text-4xl text-center max-sm:text-2xl">{t("twn")}</h2>
           <p className="text-center font-bold w-5/6">{t("twnInfo")}</p>
         </div>
       </div>
