@@ -1,13 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import bgres from "../../../assets/bgresidense.png"
-import twn from "../../../assets/twnhsn.png"
 import office from "../../../assets/office.png"
 
 function Maps() {
 
 const { t } = useTranslation()
-
   return (
     <div className='w-full flex flex-col items-center gap-20 p-12 mt-10'>
       <h1 className='text-5xl text-center'>{t("aboutUs")}</h1>
@@ -30,7 +27,7 @@ const { t } = useTranslation()
             <h1 className='text-5xl text-center'>{t("office")}</h1>
             <h3 className='text-xl text-center'>{t("address")}</h3>
         </div>
-        <img src={office} alt="" className='border-2 border-black'/>
+        <img src={office} alt="" className='border-2 border-black '/>
       </div>
     </div>
   )

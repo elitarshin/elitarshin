@@ -6,8 +6,20 @@
       "password": "test"
     }
   ],
-  "bgPosts": [],
+  "bgPosts": [
+    {
+      "id": "62d9",
+      "title": "test",
+      "data": "test"
+    }
+  ],
   "1build": [],
   "2build": [],
-  "3build": []
+  "3build": [
+    {
+      "id": "b724",
+      "title": "test",
+      "data": "test"
+    }
+  ]
 }
