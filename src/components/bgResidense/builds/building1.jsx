@@ -30,7 +30,7 @@ function Building1() {
         <div className="w-3/6 max-md:w-full mb-10">
           <img src={build1} className="mt-24"/>
         </div>
-        <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
+        <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full flex">
           <h2 className="text-4xl text-center">{t("bulding1")}</h2>
           <p className="text-center font-bold w-5/6">{t("build1Info")}</p>
           <div className="w-full flex flex-wrap gap-4 max-md:w-full justify-center">
@@ -38,10 +38,10 @@ function Building1() {
               <img src={build3} className="w-56 h-56 max-md:w-auto max-sm:w-5/6" />
               <img src={build4} className="w-56 h-56 max-md:w-auto max-sm:w-5/6" />
           </div>
-          <div className="flex flex-wrap justify-center gap-32">
-              <img src={pharmacy} className="w-32 h-32" />
-              <img src={parking} className="w-32 h-32" />
-              <img src={playground} className="w-32 h-32" />
+          <div className="w-full flex justify-around ">
+              <img src={pharmacy} className="w-20 h-20" />
+              <img src={parking} className="w-20 h-20" />
+              <img src={playground} className="w-20 h-20" />
           </div>
         </div>
         <div>

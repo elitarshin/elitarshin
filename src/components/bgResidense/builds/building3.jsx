@@ -39,9 +39,9 @@ function Building3() {
               <img src={build4} className="w-56 h-56" />
           </div>
           <div className="flex flex-wrap justify-center gap-32">
-              <img src={gym} className="w-32 h-32" />
-              <img src={pool} className="w-32 h-32" />
-              <img src={parking} className="w-32 h-32" />
+              <img src={gym} className="w-20 h-20" />
+              <img src={pool} className="w-20 h-20" />
+              <img src={parking} className="w-20 h-20" />
           </div>
         </div>
         <div>
