@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
 import { Link } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { langsContext } from "../../../main";
 
 
@@ -11,7 +11,7 @@ function Header() {
 
   const { t } = useTranslation()
   const value = useContext(langsContext);
-
+  let [btn, setBtn] = useState(true)
   
   return (
     <div className="w-12/12 p-6 flex justify-between max-md:p-2 max-sm:justify-between p-2">
@@ -19,7 +19,7 @@ function Header() {
       <div className="flex gap-10 max-sm:flex-col gap-2">
         <Button id="btn" variant="text"><Link to="/">{t("home")}</Link></Button>
         <Button id="btn" variant="text" onClick={() => window.scrollTo(0,1000)}>{t("projects")}</Button>
-        <Button id="btn" variant="text" onClick={() => window.scrollTo(0,2800)}>{t("about")}</Button>
+        <Button id="btn" disabled={true} variant="text" onClick={() => window.scrollTo(0,2800)}>{t("about")}</Button>
       </div>
       <div className="flex gap-1 max-md:flex-col gap-0 max-sm:flex-col gap-2">
         {

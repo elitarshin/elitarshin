@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Header from '../main/header/Header'
 import { Link } from 'react-router-dom'
@@ -13,6 +13,7 @@ function BgResidense() {
     useEffect(() => {
         dispatch(getPosts({url}))
       },[])
+      
     return (
     <div className='flex flex-col'>
         <Header/>

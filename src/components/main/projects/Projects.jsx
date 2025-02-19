@@ -17,22 +17,22 @@ function Projects() {
       <h1 className='text-5xl mt-8'>{t("projects")}</h1>
       <p className='text-xl mt-5 text-center'>{t("projectsQoute")}</p>
       <div className='flex items-center justify-center flex-wrap gap-8 mt-20'>
-        <div className='w-1/6 border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
+        <div className='w-96 border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
             <img src={ResImg} className='w-72 h-44' />
             <h3 className='text-xl text-center font-bold mt-5 mb-5'>{t("bgresidence")}</h3>
             <Link to="/BG"><Button id="btn" variant="outlined">{t("seemore")}</Button></Link>
         </div>
-        <div className='w-1/6  border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
+        <div className='w-96 border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
             <img src={Twn} className='w-72 h-56' />
             <h3 className='text-xl text-center font-bold mt-5 mb-5'>{t("townhouses")}</h3>
             <Link to="/townHouses"><Button id="btn" variant="outlined">{t("seemore")}</Button></Link>
         </div>
-        <div className='w-1/6  border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
+        <div className='w-96 border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
           <img src={katlavan} className='w-72 h-56' />
           <h3 className='text-xl text-center font-bold mt-5 mb-5'>{t("katlavan")}</h3>
           <Link to="/katlavan"><Button id="btn" variant="outlined">{t("seemore")}</Button></Link>
           </div>
-        <div className='w-1/6  border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
+        <div className='w-96  border-2 p-12 h-96 flex flex-col justify-center items-center max-md:w-2/6 max-sm:w-5/6'>
           <img src={beton} className='w-72 h-44' />
           <h3 className='text-xl text-center font-bold mt-5 mb-5'>{t("blocks")}</h3>
           <Link to="/blocks"><Button id="btn" variant="outlined">{t("seemore")}</Button></Link>
