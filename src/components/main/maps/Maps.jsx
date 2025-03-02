@@ -6,10 +6,10 @@ function Maps() {
 
 const { t } = useTranslation()
   return (
-    <div className='w-full flex flex-col items-center gap-20 p-12 mt-10'>
+    <div className='w-full flex flex-col items-center gap-20 p-12 mt-10 max-sm:p-2'>
       <h1 className='text-5xl text-center'>{t("aboutUs")}</h1>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.1055965134065!2d44.58738416394559!3d40.192143798775284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406aa3241239a809%3A0xf0f421e5913d39c4!2sBagrevand%20Residense%2C%20Jrvej%2017%20str.6%2F6!5e0!3m2!1sru!2sam!4v1725964918465!5m2!1sru!2sam" width="95%" height="700vh"  loading="lazy" className='max-sm:h-96' ></iframe>
-      <div style={{width:"95%"}} className='w-full flex flex-col flex-wrap items-center bg-gray-400 m-0 p-12'>
+      <div style={{width:"95%"}} className='w-full flex flex-col flex-wrap items-center bg-gray-400 m-0 p-12 max-sm:p-4'>
             <h3 className='text-5xl text-center max-md:text-2xl'>{t("ourProjects")}</h3>
             <div className='w-full flex flex-wrap gap-1 items-center justify-around mt-16 max-md:flex-col w-full'>
                 <div className='w-2/5 mb-2 flex flex-col items-center max-md:w-full'>
