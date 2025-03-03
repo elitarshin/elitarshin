@@ -19,7 +19,7 @@ function Header() {
       <div className="flex gap-10 max-sm:flex-col gap-2">
         <Button id="btn" variant="text"><Link to="/">{t("home")}</Link></Button>
         <Button id="btn" variant="text" onClick={() => window.scrollTo(0,1000)}>{t("projects")}</Button>
-        <Button id="btn" disabled={true} variant="text" onClick={() => window.scrollTo(0,2800)}>{t("about")}</Button>
+        <Button id="btn" variant="text" onClick={() => window.scrollTo(0,2800)}>{t("about")}</Button>
       </div>
       <div className="flex gap-1 max-md:flex-col gap-0 max-sm:flex-col gap-2">
         {

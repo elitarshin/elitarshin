@@ -37,16 +37,18 @@ function Login() {
 
   return (
     <div className=' mt-20 flex justify-center'>
-      <div className='w-2/6 p-20 flex flex-col items-center justify-center gap-6 border border-gray rounded'>
+      <div className='w-1/5 p-20 flex flex-col items-center justify-center gap-6 border border-gray rounded max-sm:w-5/6 p-4'>
         <div className='flex flex-col items-center'>
-          <h1 className='text-3xl font-bold'>Log In</h1>
-          <p>{t("title")}</p>
+          <h1 className='text-center text-3xl font-bold'>test</h1>
+          <p className='text-center'>{t("title")}</p>
         </div>
-        <form className='flex flex-col items-center gap-5' onSubmit={handleSubmit(onSubmit)}>
-          <TextField  {...register("login", { required: true })} id="outlined-basic" label="Login*" variant="outlined" style={{width:"17vw"}} />
-          <TextField  {...register("password", { required: true })} type="password" id="outlined-basic" label="Password*" variant="outlined" style={{width:"17vw"}} />
-          <TextField  type='submit' value={"Log In"} style={{width:"10vw"}}  />
-        </form>
+        <div className='w-full'>
+          <form className='w-full flex flex-col items-center gap-5' onSubmit={handleSubmit(onSubmit)}>
+            <TextField  {...register("login", { required: true })} id="outlined-basic" label="Login*" variant="outlined" style={{width:"100%"}} />
+            <TextField  {...register("password", { required: true })} type="password" id="outlined-basic" label="Password*" variant="outlined" style={{width:"100%"}} />
+            <TextField  type='submit' value={"Log In"} style={{width:"80%"}}  />
+          </form>
+        </div>
       </div>
        {/* aksaar77? elitarShin */}
     </div>
