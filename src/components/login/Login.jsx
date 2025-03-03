@@ -39,7 +39,7 @@ function Login() {
     <div className=' mt-20 flex justify-center'>
       <div className='w-1/5 p-20 flex flex-col items-center justify-center gap-6 border border-gray rounded max-sm:w-5/6 p-4'>
         <div className='flex flex-col items-center'>
-          <h1 className='text-center text-3xl font-bold'>test</h1>
+          <h1 className='text-center text-3xl font-bold'>LOGIN</h1>
           <p className='text-center'>{t("title")}</p>
         </div>
         <div className='w-full'>
