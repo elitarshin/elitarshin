@@ -8,24 +8,12 @@
   ],
   "bgPosts": [
     {
-      "id": "4c02",
+      "id": "079f",
       "title": "test",
       "data": "test"
     }
   ],
-  "1build": [
-    {
-      "id": "650c",
-      "title": "test",
-      "data": "test"
-    }
-  ],
+  "1build": [],
   "2build": [],
-  "3build": [
-    {
-      "id": "b724",
-      "title": "test",
-      "data": "test"
-    }
-  ]
+  "3build": []
 }
