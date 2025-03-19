@@ -45,7 +45,7 @@ function BgResidense() {
               }
             </div>
         </div>
-        <button><Link to="/admin">test</Link></button>
+        {/* <button><Link to="/admin">test</Link></button> */}
     </div>
   )
 }

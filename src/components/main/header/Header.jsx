@@ -11,11 +11,11 @@ function Header() {
 
   const { t } = useTranslation()
   const value = useContext(langsContext);
-  let [btn, setBtn] = useState(true)
+  // let [btn, setBtn] = useState(true)
   
   return (
     <div className="w-12/12 p-6 flex justify-between max-md:p-2 max-sm:justify-between p-2">
-      <h3 className="font-bold text-2xl max-md:hidden max-sm:hidden">{t("title")}</h3>
+      <h3 className="font-bold text-2xl max-md:hidden max-sm:hidden"><Link to="/">{t("title")}</Link></h3>
       <div className="flex gap-10 max-sm:flex-col gap-2">
         <Button id="btn" variant="text"><Link to="/">{t("home")}</Link></Button>
         <Button id="btn" variant="text" onClick={() => window.scrollTo(0,1000)}>{t("projects")}</Button>
