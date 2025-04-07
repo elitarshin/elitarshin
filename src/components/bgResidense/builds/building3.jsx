@@ -32,7 +32,7 @@ function Building3() {
         </div>
         <div className="w-3/6 flex flex-col items-center gap-12 max-md:w-full">
           <h2 className="text-4xl text-center">{t("bulding3")}</h2>
-          <p className="text-center font-bold w-5/6">{t("build1Info")}</p>
+          <p className="text-center font-bold w-5/6">{t("build3Info")}</p>
           <div className="w-full flex flex-wrap gap-4 max-md:w-full justify-center">
               <img src={build2} className="w-56 h-56" />
               <img src={build3} className="w-56 h-56" />
